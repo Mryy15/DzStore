@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Produk - Diaz Store</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Kanit', sans-serif;
+        background: url('qwe.jpg') no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+        color: #fff;
+        z-index: 0;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.7); /* Overlay gelap */
+        z-index: -1;
+      }
+
+      header {
+        background-color: rgba(0, 0, 0, 0.85);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 6rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo img {
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      .logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 18px;
+      }
+
+      nav a.active {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .about-section {
+        padding: 80px 20px;
+        max-width: 800px;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+      }
+
+      .about-section h1,
+      .about-section h2 {
+        color: #00ffb3;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      ul li {
+        margin-bottom: 8px;
+      }
+
+      /* Footer */
+      footer {
+        background-color: rgba(0, 0, 0, 0.85);
+        padding: 2rem 1rem;
+        text-align: center;
+        color: #ccc;
+        margin-top: 4rem;
+        font-size: 16px;
+      }
+
+      .contact-info a {
+        color: #00ffb3;
+        text-decoration: none;
+        margin: 0 8px;
+        display: inline-block;
+      }
+
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="dz.png" alt="logo" />
+        <a href="mryy.html">Dz Store</a>
+      </div>
+
+      <nav>
+        <a href="mryy.html">Home</a>
+        <a href="about.html" class="active">About</a>
+      </nav>
+    </header>
+
+    <section class="about-section">
+      <div class="container">
+        <h1>Tentang Produk Kami</h1>
+        <p>
+          Di <strong>Diaz Store</strong>, kami menyediakan produk berkualitas yang telah dipilih secara selektif.
+          Fokus kami adalah memberikan kombinasi terbaik antara harga terjangkau dan kualitas premium.
+        </p>
+
+        <h2>Keunggulan Produk Kami</h2>
+        <ul>
+          <li>✔️ Desain modern dan kekinian</li>
+          <li>✔️ Bahan berkualitas dan tahan lama</li>
+          <li>✔️ Harga bersahabat, cocok untuk semua kalangan</li>
+          <li>✔️ Pengiriman cepat dan aman</li>
+          <li>✔️ Garansi produk & sistem retur yang mudah</li>
+        </ul>
+
+        <h2>Proses Kurasi Produk</h2>
+        <p>
+          Setiap produk yang masuk ke katalog kami melalui proses kurasi ketat oleh tim Dz Store. Kami hanya menjual barang
+          yang layak pakai, bernilai tinggi, dan tentunya original (bukan KW).
+        </p>
+
+        <h2>Komitmen Kami</h2>
+        <p>
+          Kepuasan pelanggan adalah prioritas utama kami. Kami berusaha menciptakan pengalaman belanja yang menyenangkan dan
+          transparan. Terima kasih telah memilih Dz Store!
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer Kontak -->
+    <footer>
+      <p>Hubungi Kami:</p>
+      <div class="contact-info">
+        <a href="https://instagram.com/diazing8" target="_blank">📷 @diazing8</a>
+        <a href="https://wa.me/6285163686663" target="_blank">📱 +62 851-6368-6663</a>
+        <a href="mailto:dzstore@email.com">📧 dzstore@email.com</a>
+      </div>
+      <p>&copy; 2025 Diaz Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
